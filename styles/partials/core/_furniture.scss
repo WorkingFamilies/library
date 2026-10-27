@@ -270,7 +270,7 @@
     }
     &:hover, &:active, &:target {
       text-decoration: none;
-      background: color.scale($elem-active-link-color, $lightness: -30%);
+      background: color.adjust($elem-active-link-color, $lightness: -30%);
 
       button.btn-user-initial {
         background: $black;
